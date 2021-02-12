@@ -15,7 +15,7 @@ new_array = []
       end
       inner_index += 1
     end
-    p lowest_temp
+    
     src_index += 1 
   end
       
