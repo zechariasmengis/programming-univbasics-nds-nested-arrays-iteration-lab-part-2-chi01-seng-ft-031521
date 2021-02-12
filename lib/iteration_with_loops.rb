@@ -10,13 +10,12 @@ new_array = []
     lowest_temp = 500
     while inner_index < src[src_index].count do
       if src[src_index][inner_index] < lowest_temp
-        binding.pry
         lowest_temp = src[src_index][inner_index]
       end
       inner_index += 1
     end
-    new_array << 
+    new_array << lowest_temp
     src_index += 1 
   end
-      
+  new_array
 end
