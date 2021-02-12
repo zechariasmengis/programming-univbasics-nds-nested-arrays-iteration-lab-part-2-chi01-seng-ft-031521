@@ -11,6 +11,7 @@ src_index = 0
       end
       inner_index += 1
     end
+    p lowest_temp
     src_index += 1 
   end
       
