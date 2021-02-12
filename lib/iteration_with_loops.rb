@@ -15,7 +15,7 @@ new_array = []
       end
       inner_index += 1
     end
-    
+    new_array << 
     src_index += 1 
   end
       
